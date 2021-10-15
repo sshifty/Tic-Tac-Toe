@@ -1,0 +1,85 @@
+/*Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --secondary-color:#FF5C58;
+    --background-color:#FFEDD3;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Gluten', cursive;
+}
+header{
+    margin-bottom: 20px;
+    text-align: center;
+}
+header .title{
+    font-size: 3em;
+    font-weight: 700;
+    padding:20px 0px;    
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.gameBoard{
+    display:grid;
+    
+    background-image: url("https://www.seekpng.com/png/full/205-2056330_tic-tac-toe-stickers-messages-sticker-0-transparent.png");
+    background-size: contain;    
+    width: 500px;
+    height: 500px; 
+}
+
+.gameBoard *{
+    padding:20px;
+    background-size: contain;       
+    
+        
+}
+
+.announcement{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.wrapper{   
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+    
+}
+.reset{
+    font-family: 'Gluten';
+    font-size: 1.3em;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    padding:10px 40px;
+    border:1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.reset:hover{
+    opacity: 0.9;
+}
+.o{
+    background-image: url("https://www.pinclipart.com/picdir/big/522-5228825_circle-clipart.png");
+    background-origin: content-box;
+    background-clip: content-box;
+    
+    
+}
+.x{
+    background-image: url("https://www.pinclipart.com/picdir/big/42-423083_multiplication-sign-svg-png-icon-free-download-tic.png");
+    background-origin: content-box;
+    background-clip: content-box;
+    
+    
+}
